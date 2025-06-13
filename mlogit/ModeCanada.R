@@ -32,3 +32,5 @@ effects(ml.MC1, covariate = "income", type = "ar")
 effects(ml.MC1, covariate = "cost", type = "rr")
 coef(ml.MC1)[grep("time", names(coef(ml.MC1)))] /
   coef(ml.MC1)["cost"] * 60 
+
+#ok
